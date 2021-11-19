@@ -49,7 +49,7 @@ improv_serial:
 
 sensor:
   - platform: dht
-    pin: GPIO7
+    pin: GPIO12
     temperature:
       name: Temperature
     humidity:
