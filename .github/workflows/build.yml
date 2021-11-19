@@ -1,0 +1,15 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: esphome/build-action/.github/workflows/build.yml@main
+    with:
+      # CHANGEME: Set the filenames of your config files here:
+      files: project-template-esp32.yaml,project-template-esp8266.yaml
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
