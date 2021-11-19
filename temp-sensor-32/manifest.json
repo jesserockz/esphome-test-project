@@ -1,0 +1,21 @@
+{
+  "chipFamily": "ESP32",
+  "parts": [
+    {
+      "path": "temp-sensor-32/firmware.bin",
+      "offset": 65536
+    },
+    {
+      "path": "temp-sensor-32/bootloader_dio_40m.bin",
+      "offset": 4096
+    },
+    {
+      "path": "temp-sensor-32/partitions.bin",
+      "offset": 32768
+    },
+    {
+      "path": "temp-sensor-32/boot_app0.bin",
+      "offset": 57344
+    }
+  ]
+}
