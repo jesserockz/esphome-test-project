@@ -11,5 +11,3 @@ jobs:
     with:
       files: temp-sensor-esp32.yaml,temp-sensor-esp8266.yaml
       name: Temperature Sensor
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
