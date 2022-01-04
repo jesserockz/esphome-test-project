@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: esphome/workflows/.github/workflows/publish.yml@main
+    uses: esphome/workflows/.github/workflows/publish.yml@multiple-builds
     with:
       files: temp-sensor-esp32.yaml,temp-sensor-esp8266.yaml
       name: Temperature Sensor
